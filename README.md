@@ -1,5 +1,9 @@
 # Kotlinx Serialization Serializer
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/net.codinux.kotlin.serialization/kotlinx-serialization-serializers/badge.svg)](https://maven-badges.herokuapp.com/maven-central/net.codinux.kotlin.serialization/kotlinx-serialization-serializers)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+
 Serializers for [kotlinx-serialization](https://github.com/Kotlin/kotlinx.serialization) not provided by kotlinx-serialization 
 like for java.time classes or serializing/deserializing ByteArray to/from Base64.
 
