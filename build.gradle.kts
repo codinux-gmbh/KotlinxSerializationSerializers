@@ -102,3 +102,13 @@ kotlin {
         }
     }
 }
+
+
+ext["sourceCodeRepositoryBaseUrl"] = "git.dankito.net/codinux/KotlinxSerializationSerializers"
+
+ext["projectDescription"] = "Tools to work with eInvoices according to EU standard EN 16931"
+
+val gradleScripts = file("./gradle/scripts/publish-codinux.gradle.kts")
+if (gradleScripts.exists()) { // otherwise run `git submodule init && git submodule update` so that Gradle scripts get checked out
+    apply(from = "./gradle/scripts/publish-codinux.gradle.kts")
+}
