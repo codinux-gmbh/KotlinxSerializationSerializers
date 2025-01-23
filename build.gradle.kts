@@ -88,6 +88,8 @@ kotlin {
         commonTest.dependencies {
             implementation(kotlin("test"))
 
+            implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:$kotlinxSerializationVersion")
+
             implementation("com.willowtreeapps.assertk:assertk:$assertKVersion")
         }
 
