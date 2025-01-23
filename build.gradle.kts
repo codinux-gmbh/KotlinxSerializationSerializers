@@ -106,7 +106,7 @@ kotlin {
 
 ext["sourceCodeRepositoryBaseUrl"] = "git.dankito.net/codinux/KotlinxSerializationSerializers"
 
-ext["projectDescription"] = "Tools to work with eInvoices according to EU standard EN 16931"
+ext["projectDescription"] = "Serializers that are not provided by default by kotlinx-serialization like for java.time types"
 
 val gradleScripts = file("./gradle/scripts/publish-codinux.gradle.kts")
 if (gradleScripts.exists()) { // otherwise run `git submodule init && git submodule update` so that Gradle scripts get checked out
