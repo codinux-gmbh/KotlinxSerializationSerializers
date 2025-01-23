@@ -89,6 +89,7 @@ kotlin {
             implementation(kotlin("test"))
 
             implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:$kotlinxSerializationVersion")
+            implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.5.0")
 
             implementation("com.willowtreeapps.assertk:assertk:$assertKVersion")
         }
